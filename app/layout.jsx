@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
             <a href="/" className="logo">Smart Home Guides</a>
             <div className="nav-links">
               <a href="/">Home</a>
+              <a href="/about">About</a>
               <a href="https://applecoreatl.com" target="_blank" rel="noopener">Apple Core Tech</a>
             </div>
           </nav>
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <footer>
           <p>&copy; {new Date().getFullYear()} Smart Home Guides — A project by <a href="https://applecoreatl.com">Apple Core Tech</a></p>
           <p className="affiliate-disclosure">Some links on this site are affiliate links. We may earn a commission at no extra cost to you.</p>
+          <p style={{ marginTop: '0.5rem', fontSize: '0.8rem' }}><a href="/privacy">Privacy Policy</a> · <a href="/about">About</a></p>
         </footer>
       </body>
     </html>
